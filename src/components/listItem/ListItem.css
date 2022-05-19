@@ -1,0 +1,16 @@
+.country-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #ccffcc;
+  margin-top: 15px;
+  padding: 15px 5px;
+  width: 95vw;
+  height: 100px;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.country-block > div {
+  padding: 5px 5px 0;
+}
