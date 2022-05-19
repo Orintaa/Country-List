@@ -31,7 +31,6 @@ function App() {
   }, []);
 
   const sortClickHandler = () => {
-    console.log("old", sortType);
     let sortedCountryList = [];
     if (sortType === "") {
       setSortType("asc");
@@ -66,7 +65,6 @@ function App() {
 
   return (
     <div className="App">
-      {console.log("return", sortType)}
       <h1>Country List</h1>
       <div className="button-block">
         <Button onClick={filterRegionHandler}>Oceania region</Button>
